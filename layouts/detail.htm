@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler Polo</title>
+    <link rel="stylesheet" href="../css/detail.css">
+    <link rel="stylesheet" href="../icons/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="header">
+        <div class="logo">
+            <img src="../img/ginlogo2.png" alt="">
+        </div>
+        <center>
+            <ul id="nav">
+                    <li><a href="homepage.htm">HOME</a></li>
+                    <li><a  href="product.htm">TOP</a>
+                        <ul class="subnav">
+                            <li><a href="">T-SHIRTS</a></li>
+                            <li><a href="">POLO</a></li>
+                            <li><a href="">SHIRTS</a></li>
+                            <li><a href="">SWEATERS</a></li>
+                            <li><a href="">HOODIES</a></li>
+                            <li><a href="">JACKETS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">BOTTOM</a>
+                        <ul class="subnav">
+                            <li><a href="">SHORTS</a></li>
+                            <li><a href="">PANTS</a></li>
+                            <li><a href="">SWEATERPANTS</a></li>
+                        </ul>               
+                    </li>
+                    <li><a href="">SALE</a></li>
+                    <li><a href="">ACCESSORIES</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                </ul>  
+                
+            <!-- btn -->
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>             
+            </div> 
+            <div class="log">
+                <a href="register.htm">
+                    <i class="log-icon ti-user"></i>
+                </a>
+            </div>
+            <div class="cart">
+                <a href="cart.htm">
+                    <i class="cart-icon ti-shopping-cart"></i>
+                </a>
+            </div>          
+        </center>
+    </div> 
+
+    <main>
+        <div class="breadrum">
+            <ol>
+                <li>
+                    <a href="homepage.htm">Home</a>
+                </li>
+                <li>
+                    <a href="product.htm">Top</a>
+                </li>
+                <li>
+                    <a class="now-page" href="detail.htm">Tyler Polo</a>
+                </li>
+            </ol>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <span onclick="this.parentElement.style.display='none'"></span>
+                <img id="expand" style="width:70%; margin-bottom: 20px; ;height: 50%; margin-left: 50px; ; margin-top: 15px;">
+            </div>
+            <div class="column-1">
+                <img src="../img/shirt1.jpg" onclick="gfg(this);">
+                <img src="../img/shirt1_1.jpg" onclick="gfg(this);">
+            </div>
+     
+            
+        </div>
+
+        <div class="right">
+            <div class="product-price">
+                <h2>Tyler Polo</h2>
+                <p class="price">530.000VND</p>
+            </div>
+
+            <div class="sizing">
+                <p>Size</p>
+                <ul>
+                <li><a href="">M</a></li>
+                <li><a href="">L</a></li>
+                <li><a href="">XL</a></li>
+            </ul>
+            </div>
+
+            <div class="solg_sp">
+                <p>Số lượng</p>
+                <button type="button" data-type="tru" class="btn-tru">-</button>
+                <input type="text" value="1" name="" class="input_solg">
+                <button type="button" data-type="cong" class="btn-cong">+</button>
+            </div>
+
+            <div class="add">
+                <button><p>Add to cart</p></button>
+            </div>
+
+            <div class="sidenav">
+                <!-- 1 -->
+                <button class="dropdown-btn">Thông tin chi tiết
+                <i class="down ti-angle-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <p>✦ Chất liệu: Cotton cá sấu.</p>
+                <p>✦ Fitting: Oversized fit.</p>
+                <p>✦ Hướng dẫn bảo quản: <br>
+                  + Sản phẩm bền nhất khi giặt tay. <br>
+                  + Nếu giặt máy, hãy giặt ở nhiệt độ thường. <br>
+                  + Khi phơi tránh ánh nắng trực tiếp. <br>
+                  + Nên treo sản phẩm để sản phẩm có độ bền phom dáng.</p>
+            </div>
+        
+            <!-- 2 -->
+            <button class="dropdown-btn">Chính sách bảo hành
+                <i class="down ti-angle-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <p>✦ Đối với sản phẩm bị lỗi các chi tiết trên áo khi chưa can thiệp sử dụng hay giặt tẩy, Gin Studio sẽ tiến hành kiểm tra và và đổi mới sản phẩm.</p>
+                <p>✦ Đối với sản phẩm bị lỗi do quá trình vận chuyển, Gin Studio sẽ khắc phục tuỳ tình trạng hoặc đổi mới.</p>
+            </div>
+        
+            <!-- 3 -->
+            <button class="dropdown-btn">Chính sách đổi trả
+              <i class="down ti-angle-down"></i>
+            </button>
+            <div class="dropdown-container">
+              <p> ✦ Đổi hàng trong vòng 3 ngày với đơn nội thành; 7 ngày với đơn COD (sản phẩm chưa qua sử dụng và còn nguyên tag; mác).</p>
+              <p> ✦ Sản phẩm muốn đổi có giá trị bằng hoặc cao hơn sản phẩm cũ (quý khách vui lòng thanh toán phí ship hai chiều).</p>
+              <p> ✦ Không áp dụng đổi trả với các sản phẩm sale.</p>
+            </div>
+            </div>
+        </div>      
+    </main>
+
+    <footer>      
+        <div class="footer-logo">
+            <img src="../img/ginlogo2.png" alt="">
+        </div>
+        <div class="info-company">
+            <div class="name-company">
+                Gin Studio
+            </div>
+            <div class="address">
+                Địa chỉ: Mai Dịch, Cầu Giấy, Hà Nội
+            </div>
+            <div class="phone">
+                Sđt: 0123456789
+            </div>
+            <div class="email">
+                Email: ginstudio@gmail.com
+            </div>
+            <div class="contract-icons">
+                <a href="https://www.instagram.com/__.gck.__/">
+                    <i class="insta-icon ti-instagram"></i>
+                </a>
+                <i class="fb-icon ti-facebook"></i>
+                <i class="tw-icon ti-twitter-alt"></i>
+            </div>
+        </div>
+        <div class="content-footer">
+            <div class="menu-footer">
+                <ul>
+                    <li>INFORMATION</li>
+                    <li>
+                        <a href="">About Us</a>
+                    </li>
+                    <li>
+                        <a href="">Term of Use</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>support</li>
+                    <li>
+                        <a href="">Contract us</a>
+                    </li>
+                    <li>
+                        <a href="">Help</a>
+                    </li>
+                </ul>
+            </div>
+        </div>   
+    </footer>
+
+    <script src="../js/detail.js"></script>
+    
+</body>
+</html>

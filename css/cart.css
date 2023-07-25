@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 100px;
+    padding-bottom: 3px;
+}
+
+.list-product {
+    padding: 15px ;
+}
+
+.row {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+
+.row .product_info {
+    width: 60%;
+    display: flex;
+}
+
+.row .action {
+    width: 40%;
+}
+
+.row .product_info a {
+   display: block;
+   width: 120px;
+   margin-right: 15px;
+}
+
+.row .product_info .desc h2 {
+    margin: 0 0 5px ;
+}
+
+.row .product_info .desc h2 a {
+    color: #000;
+    font-size: 20px;
+}
+
+.row .product_info .desc > div {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.row .product_info .desc .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: chocolate;
+    margin-top: 10px;
+}
+
+.row .action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.total_1sp {
+    font-size: 20px;
+    font-weight: bold;
+    color: chocolate;
+}
+
+.total_price {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 25px;
+    padding: 15px 0;
+}
+
+#total {
+    color: chocolate;
+}
+
+.pay {
+    float: right;
+    color: white;
+    background-color: #000;
+    height: 50px;
+    width: 270px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+.btn-tru, .btn-cong {
+    color: white;
+    background-color: #000;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.btn-xoa {
+    float: right;
+    color: white;
+    background-color: #000;
+    height: 30px;
+    cursor: pointer;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    /* font-size: 14px; */
+}
+
+.btn-xoa:hover {
+    background-color: rgb(226, 19, 19);
+}
+
+.solg_sp input  {
+    height: 30px;
+    width: 30px;
+}
+
+input {
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* header begin */
+#header {
+    height: 46px;
+    background-color:  #ece9e7;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav > li {
+display: inline-block; 
+}
+#nav li {
+position: relative;
+
+}
+
+.logo {
+    float: left;
+    width: 46px;
+    margin-left: 25px;
+    align-items: center;  
+    margin-top: 9px; 
+}
+
+.logo img {
+    height: 28px;
+
+}
+
+/* navbegin */
+
+#nav > li > a {
+color: #000;
+text-transform: uppercase;
+font-size: 17px;
+font-weight: bold;
+}
+
+#nav li a {  
+text-decoration: none;
+line-height: 46px;
+padding: 0 24px;
+display: inline-block;
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover  a  {
+color: black;
+background-color: #ccc;
+
+}
+
+#nav .subnav{
+min-width: 160px;
+display: none;
+position: absolute;
+background-color: #fff;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav a {
+color: #000;
+padding: 0 12px;
+line-height: 38px;
+}
+
+#nav li:hover .subnav {
+display:  block;
+}
+
+/* btnbegin */
+
+#header .search-btn {
+    float: right;
+    padding: 0 21px;
+}
+  
+#header .search-btn:hover {
+    background-color: #f44336;
+    cursor: pointer;
+  
+}
+  
+#header .search-icon {
+     color: #000;
+     font-size: 20px;
+     line-height: 46px;
+    font-weight: 700;
+}
+
+.log, .cart {
+    float: right;
+}
+
+.log:hover, .cart:hover {
+    cursor: pointer;
+}
+
+.log, .cart {
+    font-size: 20px;
+    line-height: 46px;
+    font-weight: 700;
+    padding-right: 20px;
+}
+
+#nav .subnav li a {
+    display: block;
+    /* float: left; */
+}
+
+.footer-content {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.footer-content img {
+    width: 100%;
+}
+
+footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 300px;
+    background-color: #ece9e7;
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+}
+
+.info-company {
+    width: 35%;
+    margin-left: 20px;
+}
+
+.content-footer {
+    width: 65%;
+}
+
+.info-company .name-company,
+.menu-footer ul li:first-child  {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.info-company .address, .info-company .phone, .info-company .email {
+    margin-bottom: 5px;
+}
+
+.menu-footer {
+    display: flex;
+}
+
+.menu-footer > div {
+    width: calc(100% /3);
+}
+
+.menu-footer ul {
+    margin-right: 70px;
+}
+
+.menu-footer ul li a {
+    margin-bottom: 5px;
+    color: black;
+}
+
+.contract-icons {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.fb-icon {
+    color: #4267b2;
+}
+
+.tw-icon {
+    color: #1DA1F2;
+}
+
+.ista-icon {
+    color: #8A3AB9;
+}
+
+
+
+
